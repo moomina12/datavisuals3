@@ -5,8 +5,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 def main():
-    st.title("Hello, World! EDA Streamlit App")
-
     st.header("Upload your CSV data file")
     data_file = st.file_uploader("Upload CSV", type=["csv"])
 
